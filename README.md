@@ -7,7 +7,7 @@ Therefore, some things are specifically written for linux (such as paths)
 This script uses the symbol ```~``` in paths to reference to user's home directory.  
 You can change the paths according to your system differences.  
 
-### Preparation
+### I. Preparation
 1) Clone the repository into your home folder
 2) change directory to the repository folder
 3) ```pip -r requirements.txt```
@@ -22,7 +22,7 @@ For instance, consider the following url: https://www.reddit.com/r/INDIRBENI/com
 The ```submission id``` in this case is the part where it says ```ogk6aj```
 9) Take a note of the submission id of your updates post
 
-### Configuration
+### II. Configuration
 1) Open the downloaded repository and locate ```main.py```
     #### Things to change in the script ```main.py```:
     1) Line 30: write down your ```client id``` in field: <CLIENT ID>
