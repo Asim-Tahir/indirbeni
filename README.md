@@ -32,12 +32,13 @@ The ```submission id``` in this case is the part where it says ```ogk6aj```
     5) Line 101: write down your submission id of your links post in field: <LINKS>
     6) Line 122: write down your submission id of your links post in field: <LINKS>
     7) Line 128: write down your submission id of your links post in field: <LINKS>
-    8) Line 149: write down your submission id of your links post in field: <LINKS>
-    9) Line 204: write down your submission id of your updates post in field: <UPDATES>
-    10) Line 186: write down your account username in field: <ACCOUNT USERNAME>
-    11) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
-    12) Line 195: write down your account username in field: <ACCOUNT USERNAME>
-    13) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
+    8) Line 134: write down your submission id of your links post in field: <LINKS>
+    9) Line 149: write down your submission id of your links post in field: <LINKS>
+    10) Line 204: write down your submission id of your updates post in field: <UPDATES>
+    11) Line 186: write down your account username in field: <ACCOUNT USERNAME>
+    12) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
+    13) Line 195: write down your account username in field: <ACCOUNT USERNAME>
+    14) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
 2) If you want your system to run your bot script on startup, you can make it possible with crontab:  
     Run in terminal: ```crontab -e```  
     Modify the following line and add it to the last line in crontab:  
