@@ -9,7 +9,7 @@ You can change the paths according to your system differences.
 
 ### I. Preparation
 1) Clone the repository into your home folder
-2) change directory to the repository folder
+2) change directory to the **reddit_bot** folder
 3) Run in terminal: ```pip -r requirements.txt```
 4) Create a new reddit account
 5) Create a reddit app in that account [here](https://old.reddit.com/prefs/apps/)
