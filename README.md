@@ -17,10 +17,10 @@ You can change the paths according to your system differences.
 7) Create a subreddit only for this bot's use
 8) Create a post on the subreddit or somewhere else for updates
 9) Create a post on the subreddit for your links
-10) Take a note of the submission id of your links post:  
+10) Take a note of the submission id of your "links post":  
 For instance, consider the following url: https://www.reddit.com/r/INDIRBENI/comments/ogk6aj/uindirbeni_links_megathread/  
 The ```submission id``` in this case is the part where it says ```ogk6aj```
-9) Take a note of the submission id of your updates post
+9) Take a note of the submission id of your "updates post"
 
 ### II. Configuration
 1) Open the downloaded repository and locate ```main.py```
@@ -29,12 +29,12 @@ The ```submission id``` in this case is the part where it says ```ogk6aj```
     2) Line 31: write down your ```client secret``` in field: <CLIENT SECRET>
     3) Line 33: write down your account username in field: <ACCOUNT USERNAME>
     4) Line 34: write down your account password in field: <ACCOUNT PASSWORD>
-    5) Line 101: write down your submission id of your links post in field: <LINKS>
-    6) Line 122: write down your submission id of your links post in field: <LINKS>
-    7) Line 128: write down your submission id of your links post in field: <LINKS>
-    8) Line 134: write down your submission id of your links post in field: <LINKS>
-    9) Line 149: write down your submission id of your links post in field: <LINKS>
-    10) Line 204: write down your submission id of your updates post in field: <UPDATES>
+    5) Line 101: write down your submission id of your "links post" in field: <LINKS>
+    6) Line 122: write down your submission id of your "links post" in field: <LINKS>
+    7) Line 128: write down your submission id of your "links post" in field: <LINKS>
+    8) Line 134: write down your submission id of your "links post" in field: <LINKS>
+    9) Line 149: write down your submission id of your "links post" in field: <LINKS>
+    10) Line 204: write down your submission id of your "updates post" in field: <UPDATES>
     11) Line 186: write down your account username in field: <ACCOUNT USERNAME>
     12) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
     13) Line 195: write down your account username in field: <ACCOUNT USERNAME>
