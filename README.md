@@ -10,7 +10,7 @@ You can change the paths according to your system differences.
 ### I. Preparation
 1) Clone the repository into your home folder
 2) change directory to the repository folder
-3) ```pip -r requirements.txt```
+3) Run in terminal: ```pip -r requirements.txt```
 4) Create a new reddit account
 5) Create a reddit app in that account [here](https://old.reddit.com/prefs/apps/)
 6) Take a note of the ```client id``` and ```client``` secret of your newly created app
@@ -34,5 +34,14 @@ The ```submission id``` in this case is the part where it says ```ogk6aj```
     7) Line 128: write down your submission id of your links post in field: <LINKS>
     8) Line 149: write down your submission id of your links post in field: <LINKS>
     9) Line 204: write down your submission id of your updates post in field: <UPDATES>
-2) If you want your system to run your bot on startup, you can make it possible crontab:
-   
+    10) Line 186: write down your account username in field: <ACCOUNT USERNAME>
+    11) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
+    12) Line 195: write down your account username in field: <ACCOUNT USERNAME>
+    13) Line 186: write down your own subreddit name in field: <OWN SUBREDDIT NAME>
+2) If you want your system to run your bot script on startup, you can make it possible with crontab:  
+    Run in terminal: ```crontab -e```  
+    Modify the following line and add it to the last line in crontab:  
+    ```@reboot /usr/bin/python3 ~/reddit_bot/main.py >> ~/log.txt  2>&1```
+3) If you want to add replies, open up the ```replies.json``` file and add your string inside the array according to the json indentation (4 spaces).
+    
+That's it, have a nice time with your bot!
