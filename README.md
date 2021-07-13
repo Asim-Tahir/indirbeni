@@ -45,4 +45,5 @@ The ```submission id``` in this case is the part where it says ```ogk6aj```
     ```@reboot /usr/bin/python3 ~/reddit_bot/main.py >> ~/log.txt  2>&1```
 3) If you want to add replies, open up the ```replies.json``` file and add your string inside the array according to the json indentation (4 spaces).
     
-That's it, have a nice time with your bot!
+That's it, have a nice time with your bot!  
+**Lord'a selamlar.**
