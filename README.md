@@ -50,4 +50,4 @@ That's it, have a nice time with your bot!
 ### III. Upcoming Features
 - [ ] Better filenames with file index and hash
 
-##### Freedom for lord!**
+##### Freedom for lord!
