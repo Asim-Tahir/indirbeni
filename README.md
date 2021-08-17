@@ -48,6 +48,7 @@ The ```submission id``` in this case is the part where it says ```ogk6aj```
 That's it, have a nice time with your bot!  
 
 ### III. Upcoming Features
-- [ ] Better filenames with file index and hash
+- [x] Better filenames with file index and hash
+- [x] Random link requests
 
 ##### Freedom for lord!
