@@ -21,7 +21,7 @@ class indirbeni:
   def __init__(self):
     self.ind        = 2749
     self.CHUNK_SIZE = 10000000
-    self.path       = "<just this part before/>indirbeni" # Absolute path to indirbeni, but remove indirbeni from the path string 
+    self.path       = "<just write this part before indirbeni/>" # Absolute path to indirbeni, but remove indirbeni from the path string 
     self.NSFW       = {True:"### NSFW", False:""}
     self.f_index    = int(os.popen('cat %sindirbeni/index' %(self.path)).read())
     self.ydl_opts   = {'outtmpl': self.path + 'indirbeni/downloaded/video.%(ext)s'}
