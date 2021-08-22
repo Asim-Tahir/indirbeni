@@ -8,19 +8,23 @@ This script uses the symbol ```~``` in paths to reference to user's home directo
 You can change the paths according to your system differences.  
 
 ### I. Preparation
-1) Clone the repository into your home folder
-2) change directory to the **indirbeni** folder
-3) Run in terminal: ```pip -r requirements.txt```
-4) Create a new reddit account
-5) Create a reddit app in that account [here](https://old.reddit.com/prefs/apps/)
-6) Take a note of the ```client id``` and ```client_secret``` of your newly created app
-7) Create a subreddit only for this bot's use
-8) Create a post on the subreddit or somewhere else for updates
-9) Create a post on the subreddit for your links
-10) Take a note of the submission id of your "links post":  
+#### Quick Installation:
+```
+$ git clone https://github.com/oldventura/indirbeni.git
+$ cd indirbeni
+$ pip -r requirements.txt
+```
+#### More Stuff to Do:
+1) Create a new reddit account
+2) Create a reddit app in that account [here](https://old.reddit.com/prefs/apps/)
+3) Take a note of the ```client id``` and ```client_secret``` of your newly created app
+4) Create a subreddit only for this bot's use
+5) Create a post on the subreddit or somewhere else for updates
+6) Create a post on the subreddit for your links
+7) Take a note of the submission id of your "links post":  
 For instance, consider the following url: https://www.reddit.com/r/INDIRBENI/comments/ogk6aj/uindirbeni_links_megathread/  
 The ```submission id``` in this case is the part where it says ```ogk6aj```
-9) Take a note of the submission id of your "updates post"
+8) Take a note of the submission id of your "updates post"
 
 ### II. Configuration
 1) Open the downloaded repository and locate ```main.py```
