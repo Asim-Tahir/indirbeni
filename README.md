@@ -2,10 +2,9 @@
 Source code for u/indirbeni reddit bot
 
 ## This is how I did it
-I used a linux system btw.  
-Therefore, some things are specifically written for linux (such as paths).  
-This script uses the symbol ```~``` in paths to reference to user's home directory.  
-You can change the paths according to your system differences.  
+I used a linux system.  
+Therefore, some things are specifically written for linux (such as paths).   
+You should change the paths according to your system differences.  
 
 ### I. Preparation
 #### Quick Installation:
